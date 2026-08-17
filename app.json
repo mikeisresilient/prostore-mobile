@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "prostore-mobile",
+    "name": "Prostore",
     "slug": "prostore-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.prostore.mobile",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -38,11 +39,18 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b0233e28-b480-470c-a3ad-d47ee5fd696f"
+      }
     }
   }
 }
